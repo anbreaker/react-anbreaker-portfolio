@@ -58,13 +58,13 @@ const FooterSocial = ({className, ...props}) => {
           </a>
         </li>
         <li>
-          <a href="#">
-            <Image
-              src={require('./../../../assets/images/logo-gearbox-purple.png')}
-              alt="image link go home"
-              width={36}
-            />
-          </a>
+          {/* <a href="#/"> */}
+          <Image
+            src={require('./../../../assets/images/logo-gearbox-purple.png')}
+            alt="image link go home"
+            width={36}
+          />
+          {/* </a> */}
         </li>
       </ul>
     </div>
