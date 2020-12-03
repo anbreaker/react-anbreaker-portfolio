@@ -1,18 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classNames from 'classnames';
-import { SectionProps } from '../../utils/SectionProps';
-import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
-import Image from '../elements/Image';
-import Modal from '../elements/Modal';
+import {SectionProps} from '../../utils/SectionProps';
 
 const propTypes = {
-  ...SectionProps.types
-}
+  ...SectionProps.types,
+};
 
 const defaultProps = {
-  ...SectionProps.defaults
-}
+  ...SectionProps.defaults,
+};
 
 const Hero = ({
   className,
@@ -24,19 +20,6 @@ const Hero = ({
   invertColor,
   ...props
 }) => {
-
-  const [videoModalActive, setVideomodalactive] = useState(false);
-
-  const openModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  }
-
-  const closeModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  }   
-
   const outerClasses = classNames(
     'hero section center-content',
     topOuterDivider && 'has-top-divider',
@@ -53,58 +36,50 @@ const Hero = ({
   );
 
   return (
-    <section
-      {...props}
-      className={outerClasses}
-    >
+    <section {...props} className={outerClasses}>
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Landing template for <span className="text-color-primary">startups</span>
+              Hi there, I'm
+              <span className="text-color-primary"> anbreaker</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
-                </p>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Get started
-                    </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    View on Github
-                    </Button>
-                </ButtonGroup>
-              </div>
+                A industrial mechanic convinced that the web was his destiny. I'm learning
+                to create web experiences and programing in Javascript or Python.
+              </p>
             </div>
           </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-            <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
-            >
-              <Image
-                className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
-                alt="Hero"
-                width={896}
-                height={504} />
-            </a>
+
+          <div
+            className="vide hero-figure reveal-from-bottom illustration-element-01"
+            data-reveal-value="20px"
+            data-reveal-delay="800"
+            style={{
+              position: 'relative',
+              paddingBottom: '56.25%' /* 16:9 */,
+              paddingTop: 25,
+              height: 0,
+            }}>
+            <iframe
+              title="unique"
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+              }}
+              src={`https://www.youtube.com/embed/sP0f-mBmV0g`}
+              frameBorder="0"
+            />
           </div>
-          <Modal
-            id="video-modal"
-            show={videoModalActive}
-            handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" />
         </div>
       </div>
     </section>
   );
-}
+};
 
 Hero.propTypes = propTypes;
 Hero.defaultProps = defaultProps;
