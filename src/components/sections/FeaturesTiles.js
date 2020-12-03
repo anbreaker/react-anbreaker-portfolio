@@ -55,7 +55,10 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <a href="https://google.es" target="_blank">
+                    <a
+                      href="https://twitter.com/antunez19/status/1328643666039222272"
+                      target="_blank"
+                      rel="noreferrer noopener">
                       <Image
                         src={require('./../../assets/images/free-code-camp-logo.svg')}
                         alt="Features tile icon 01"
@@ -79,19 +82,27 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
-                      alt="Features tile icon 02"
-                      width={64}
-                      height={64}
-                    />
+                    <a
+                      href="https://github.com/anbreaker/theQuestGamePyGame"
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      <Image
+                        src={require('./../../assets/images/Orion_missile.svg')}
+                        alt="Features tile icon 02"
+                        width={64}
+                        height={64}
+                      />
+                    </a>
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Robust Workflow</h4>
+                  <h4 className="mt-0 mb-8">The Quest Game PyGame</h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Final project, bootcamp{' '}
+                    <a href="https://keepcoding.io/">
+                      <strong>Keepcoding</strong>
+                    </a>
+                    , learn how to program from 0. Code on Python 3.8.
                   </p>
                 </div>
               </div>
@@ -101,19 +112,24 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
-                      alt="Features tile icon 03"
-                      width={64}
-                      height={64}
-                    />
+                    <a
+                      href="https://raquelantunez.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      <Image
+                        src={require('./../../assets/images/Orion_camera.svg')}
+                        alt="Features tile icon 03"
+                        width={64}
+                        height={64}
+                      />
+                    </a>
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Robust Workflow</h4>
+                  <h4 className="mt-0 mb-8">Photography Web</h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Personal website of Raquel Antúnez, photographer, communicator. If you
+                    need to immortalize a great moment, visit the website and contact her.
                   </p>
                 </div>
               </div>
