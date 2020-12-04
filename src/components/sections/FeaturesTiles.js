@@ -139,19 +139,25 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
-                      alt="Features tile icon 04"
-                      width={64}
-                      height={64}
-                    />
+                    <a
+                      href="https://random-keepcoding-quote.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      <Image
+                        src={require('./../../assets/images/Orion_chat.svg')}
+                        alt="Features tile icon 03"
+                        width={64}
+                        height={64}
+                      />
+                    </a>
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Robust Workflow</h4>
+                  <h4 className="mt-0 mb-8">Random Quote React</h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    This is a simple <b>Random Quote Machine</b>, created with React and
+                    Materialize. It represents the phrases that Keepcoders take to the
+                    laboratory of the GIT presentation module in all training camps.
                   </p>
                 </div>
               </div>
@@ -161,19 +167,24 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-05.svg')}
-                      alt="Features tile icon 05"
-                      width={64}
-                      height={64}
-                    />
+                    <a
+                      href="https://jsfullstack-books.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      <Image
+                        src={require('./../../assets/images/Orion_data.svg')}
+                        alt="Features tile icon 03"
+                        width={64}
+                        height={64}
+                      />
+                    </a>
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Robust Workflow</h4>
+                  <h4 className="mt-0 mb-8">CRUD Mongo</h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    A littel exercise for work and learn, CRUD Complete APP FullStack
+                    whitout frameworks JS, but use Bootstrap4.
                   </p>
                 </div>
               </div>
