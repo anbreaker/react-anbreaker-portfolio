@@ -181,7 +181,7 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">CRUD Mongo</h4>
+                  <h4 className="mt-0 mb-8">CRUD Js & Mongo</h4>
                   <p className="m-0 text-sm">
                     A littel exercise for work and learn, CRUD Complete APP FullStack
                     whitout frameworks JS, but use Bootstrap4.
