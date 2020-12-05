@@ -118,8 +118,8 @@ const FeaturesSplit = ({
                 </p>
                 <p className="m-0">
                   If you know Spanish you can watch the video explaining how the practice
-                  works, and if not... you can always activate the subtitles (Thanks
-                  Youtube! XD)
+                  works and if not... you can always activate the subtitles, Thanks
+                  Youtube! 😜
                 </p>
               </div>
               <div
