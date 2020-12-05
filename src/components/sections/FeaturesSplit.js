@@ -119,7 +119,10 @@ const FeaturesSplit = ({
                 <p className="m-0">
                   If you know Spanish you can watch the video explaining how the practice
                   works and if not... you can always activate the subtitles, Thanks
-                  Youtube! 😜
+                  Youtube!{' '}
+                  <span role="img" aria-labelledby="Winking Face with Tongue">
+                    😜
+                  </span>
                 </p>
               </div>
               <div
