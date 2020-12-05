@@ -33,7 +33,15 @@ const Footer = ({className, topOuterDivider, topDivider, ...props}) => {
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
             <div className="footer-copyright">
-              Inpired in <a href="https://cruip.com">Cruip</a>. All right reserved
+              <p>
+                Inspired on
+                <a
+                  href="https://github.com/cruip/open-react-template"
+                  target="_blank"
+                  rel="noreferrer noopener">
+                  &nbsp;Cruip.
+                </a>
+              </p>
             </div>
           </div>
         </div>

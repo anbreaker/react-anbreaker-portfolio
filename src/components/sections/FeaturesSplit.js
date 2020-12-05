@@ -51,7 +51,7 @@ const FeaturesSplit = ({
   const sectionHeader = {
     title: 'Workflow Quick View',
     paragraph:
-      'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.',
+      'A quick overview of some projects that I consider relevant because of the technologies used, with Javascript, DOM handling without Frameworks, Node use, Express, Mongo, Templating Engines and React.',
   };
 
   return (
@@ -90,7 +90,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/features-split-image-web-01.png')}
                   alt="Features split 01"
                   width={528}
                   height={396}
@@ -103,14 +103,23 @@ const FeaturesSplit = ({
                 className="split-item-content center-content-mobile reveal-from-right"
                 data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Deploy on your Localhost:
+                  <a
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    href="https://github.com/anbreaker/practica5DesarrolloBackendAvanzado">
+                    &nbsp;GitHub&nbsp;
+                  </a>
+                  Project.
                 </div>
-                <h3 className="mt-0 mb-12">Data-driven insights</h3>
+                <h3 className="mt-0 mb-12">Advanced Backend Development</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim
-                  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo consequat.
+                  Develop the API that will run on the server of an article sales service.
+                </p>
+                <p className="m-0">
+                  If you know Spanish you can watch the video explaining how the practice
+                  works, and if not... you can always activate the subtitles (Thanks
+                  Youtube! XD)
                 </p>
               </div>
               <div
@@ -119,42 +128,29 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
-                  alt="Features split 02"
-                  width={528}
-                  height={396}
-                />
-              </div>
-            </div>
-
-            <div className="split-item">
-              <div
-                className="split-item-content center-content-mobile reveal-from-left"
-                data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                <div
+                  className="vide hero-figure reveal-from-bottom illustration-element-01"
+                  data-reveal-value="20px"
+                  data-reveal-delay="800"
+                  style={{
+                    position: 'relative',
+                    paddingBottom: '56.25%' /* 16:9 */,
+                    paddingTop: 25,
+                    height: 0,
+                  }}>
+                  <iframe
+                    title="unique"
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      left: 0,
+                      width: '100%',
+                      height: '100%',
+                    }}
+                    src={`https://www.youtube.com/embed/SYzKtf6QuiA`}
+                    frameBorder="0"
+                  />
                 </div>
-                <h3 className="mt-0 mb-12">Data-driven insights</h3>
-                <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim
-                  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo consequat.
-                </p>
-              </div>
-              <div
-                className={classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
-                  alt="Features split 03"
-                  width={528}
-                  height={396}
-                />
               </div>
             </div>
           </div>
