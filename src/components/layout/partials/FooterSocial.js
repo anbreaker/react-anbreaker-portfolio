@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-// import Image from '../../elements/Image';
+import Image from '../../elements/Image';
 // import {Link} from 'react-router-dom';
 
 const FooterSocial = ({className, ...props}) => {
@@ -67,15 +67,18 @@ const FooterSocial = ({className, ...props}) => {
             </svg>
           </a>
         </li>
-        {/* <li>
-          <Link to="#0">
+        <li>
+          <a
+            href="https://anbreaker.netlify.app/"
+            target="_blank"
+            rel="noreferrer noopener">
             <Image
               src={require('./../../../assets/images/logo-gearbox-purple.png')}
               alt="image link go home"
               width={36}
             />
-          </Link>
-        </li> */}
+          </a>
+        </li>
       </ul>
     </div>
   );
