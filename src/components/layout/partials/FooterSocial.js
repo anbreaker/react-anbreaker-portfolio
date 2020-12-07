@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import Image from '../../elements/Image';
+import {Link} from 'react-router-dom';
 
 const FooterSocial = ({className, ...props}) => {
   const classes = classNames('footer-social', className);
@@ -9,7 +10,10 @@ const FooterSocial = ({className, ...props}) => {
     <div {...props} className={classes}>
       <ul className="list-reset">
         <li>
-          <a href="https://twitter.com/antunez19">
+          <a
+            href="https://twitter.com/antunez19"
+            target="_blank"
+            rel="noreferrer noopener">
             <svg
               width="36"
               height="36"
@@ -24,7 +28,10 @@ const FooterSocial = ({className, ...props}) => {
           </a>
         </li>
         <li>
-          <a href="https://github.com/anbreaker">
+          <a
+            href="https://github.com/anbreaker"
+            target="_blank"
+            rel="noreferrer noopener">
             <svg
               width="36"
               height="36"
@@ -40,7 +47,10 @@ const FooterSocial = ({className, ...props}) => {
         </li>
 
         <li>
-          <a href="https://www.linkedin.com/in/francisco-javier-antunez-duran/">
+          <a
+            href="https://www.linkedin.com/in/francisco-javier-antunez-duran/"
+            target="_blank"
+            rel="noreferrer noopener">
             <svg
               width="36"
               height="36"
@@ -57,15 +67,15 @@ const FooterSocial = ({className, ...props}) => {
             </svg>
           </a>
         </li>
-        <li>
-          {/* <a href="#/"> */}
-          <Image
-            src={require('./../../../assets/images/logo-gearbox-purple.png')}
-            alt="image link go home"
-            width={36}
-          />
-          {/* </a> */}
-        </li>
+        {/* <li>
+          <Link to="#0">
+            <Image
+              src={require('./../../../assets/images/logo-gearbox-purple.png')}
+              alt="image link go home"
+              width={36}
+            />
+          </Link>
+        </li> */}
       </ul>
     </div>
   );

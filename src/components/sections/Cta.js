@@ -47,10 +47,13 @@ const Cta = ({
       <div className="container">
         <div className={innerClasses}>
           <div className="cta-slogan">
-            <h3 className="m-0">Tell me, What I can do for you?</h3>
+            <h3 className="m-0">
+              I invite you to know me through Twitter, Github or see my career on
+              Linkedin.
+            </h3>
           </div>
           <div className="cta-action">
-            <Input
+            {/* <Input
               id="email"
               type="email"
               labelHidden
@@ -63,7 +66,7 @@ const Cta = ({
             <br />
             <Input type="textarea" placeholder="Tell me, What I can do for you?"></Input>
             <br />
-            <Button>Send</Button>
+            <Button>Send</Button> */}
           </div>
         </div>
       </div>
