@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
-import Image from '../../elements/Image';
-import {Link} from 'react-router-dom';
+// import Image from '../../elements/Image';
+// import {Link} from 'react-router-dom';
 
 const FooterSocial = ({className, ...props}) => {
   const classes = classNames('footer-social', className);
