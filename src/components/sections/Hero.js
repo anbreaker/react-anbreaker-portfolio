@@ -46,8 +46,8 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                A industrial mechanic convinced that the web was his destiny. I'm learning
-                to create web experiences and programing in Javascript or Python.
+                A industrial mechanic convinced that the web was his fate. I'm learning to
+                create web experiences and programing in Javascript or Python.
               </p>
             </div>
           </div>
