@@ -51,19 +51,19 @@ const FeaturesTiles = ({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
-            <div className="tiles-item reveal-from-bottom">
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <a
-                      href="https://twitter.com/antunez19/status/1328643666039222272"
+                      href="https://github.com/anbreaker/theQuestGamePyGame"
                       target="_blank"
                       rel="noreferrer noopener">
                       <Image
                         src={require('./../../assets/images/free-code-camp-logo.svg')}
-                        alt="Features tile icon 01"
-                        width={64}
-                        height={64}
+                        alt="Features tile icon 02"
+                        width={96}
+                        height={96}
                       />
                     </a>
                   </div>
@@ -71,8 +71,28 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">Alexa Skill</h4>
                   <p className="m-0 text-sm">
-                    To highlight an Alexa skill created with Joaquin Engelmo for the
-                    Freecodecamp community.
+                    Highlight an Alexa skill created with
+                    <a
+                      href="https://twitter.com/kinisoftware"
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      &nbsp;<b>Joaquin Engelmo</b>&nbsp;
+                    </a>
+                    for &nbsp;
+                    <a
+                      href="https://www.freecodecamp.org/"
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      <b>Freecodecamp</b>.
+                    </a>
+                    &nbsp;Thanks &nbsp;
+                    <a
+                      href="https://twitter.com/ossia"
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      <b>Quincy</b>
+                    </a>
+                    &nbsp; (Platform CEO) for the support.
                   </p>
                 </div>
               </div>
@@ -128,8 +148,15 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">Photography Web</h4>
                   <p className="m-0 text-sm">
-                    Personal website of Raquel Antúnez, photographer, communicator. If you
-                    need to immortalize a great moment, visit the website and contact her.
+                    Personal website of{' '}
+                    <a
+                      href="https://raquelantunez.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      <b>Raquel Antúnez</b>
+                    </a>
+                    , photographer, communicator. If you need to immortalize a great
+                    moment, visit the website and contact her.
                   </p>
                 </div>
               </div>
