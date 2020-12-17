@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import {SectionTilesProps} from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
+import Image from '../elements/Image';
 
 const propTypes = {
   ...SectionTilesProps.types,
@@ -54,6 +55,18 @@ const Testimonial = ({
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
+                  <a
+                    href="https://www.linkedin.com/in/fmvilas/"
+                    target="_blank"
+                    rel="noreferrer noopener">
+                    <Image
+                      className="testimonial-face"
+                      src={require('./../../assets/images/fran.jpg')}
+                      alt="author phrase"
+                      width={64}
+                      height={64}
+                    />
+                  </a>
                   <p className="text-sm mb-0">
                     — Bienvenido al Chiquito Ipsum, el generador de texto de relleno para
                     tus diseños de antes de los dolores. Dale a "Fistrum" para que te
@@ -64,11 +77,17 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
-                    Fran Async
+                    Fran Méndez - Founder at AsyncAPI Initiative | Director Of Engineering
+                    at Postman
                   </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a
+                      href="https://asyncapi.io/"
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      AsyncAPI
+                    </a>
                   </span>
                 </div>
               </div>
@@ -77,6 +96,19 @@ const Testimonial = ({
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
+                  <a
+                    href="https://www.linkedin.com/in/javgueram/"
+                    target="_blank"
+                    rel="noreferrer noopener">
+                    <Image
+                      className="testimonial-face"
+                      src={require('./../../assets/images/javier.jpeg')}
+                      alt="author phrase"
+                      width={64}
+                      height={64}
+                    />
+                  </a>
+
                   <p className="text-sm mb-0">
                     — Lorem fistrum se calle ustée ese hombree ese hombree está la cosa
                     muy malar. Condemor por la gloria de mi madre benemeritaar a peich.
@@ -87,11 +119,16 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
-                    Ada filha Fran&Eva
+                    Javier Guerrero Ramírez - Software Engineer Lead on Capgemini
                   </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a
+                      href="https://www.linkedin.com/in/javgueram/"
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      Linkedin
+                    </a>
                   </span>
                 </div>
               </div>
@@ -100,6 +137,13 @@ const Testimonial = ({
             <div className="tiles-item reveal-from-left" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
+                  <Image
+                    className="testimonial-face"
+                    src={require('./../../assets/images/github.png')}
+                    alt="author phrase"
+                    width={64}
+                    height={64}
+                  />
                   <p className="text-sm mb-0">
                     — Ese pedazo de de la pradera llevame al sircoo hasta luego Lucas
                     tiene musho peligro mamaar qué dise usteer apetecan. Amatomaa a

@@ -57,6 +57,12 @@
 	flex-grow: 1;
 }
 
+.testimonial-face{
+	float: left;
+	margin-right: 8px;
+	border-radius: 35px;
+}
+
 .testimonial-item-source {
 	display: inline-flex; // to allow centering when using .content-center on a parent tag
 	flex-wrap: wrap;
