@@ -68,11 +68,11 @@ const Testimonial = ({
                     />
                   </a>
                   <p className="text-sm mb-0">
-                    — Bienvenido al Chiquito Ipsum, el generador de texto de relleno para
-                    tus diseños de antes de los dolores. Dale a "Fistrum" para que te
-                    salga ese pedaso de texto Chiquito en estado puro. Si te crees muy
-                    moderno dale a "Latin" que te lo pongo con cuarto y mitad de
-                    romanooo... Jarl!!
+                    I am still waiting for the texts to be passed on to me, they will
+                    really speak well of me soon... To Be Continued... While Chiquito
+                    ipsum... XD — Bienvenido al Chiquito Ipsum, el generador de texto de
+                    relleno para tus diseños de antes de los dolores de pensar. "Fistrum"
+                    para que te salga ese pedaso de texto Chiquito en estado puro. Jarl!!
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
@@ -110,11 +110,11 @@ const Testimonial = ({
                   </a>
 
                   <p className="text-sm mb-0">
-                    — Lorem fistrum se calle ustée ese hombree ese hombree está la cosa
-                    muy malar. Condemor por la gloria de mi madre benemeritaar a peich.
-                    Papaar papaar pecador amatomaa no puedor. Benemeritaar pupita va usté
-                    muy cargadoo tiene musho peligro apetecan ese pedazo de sexuarl me
-                    cago en tus muelas.
+                    I am still waiting for the texts to be passed on to me, they will
+                    really speak well of me soon... To Be Continued... While Chiquito
+                    ipsum... XD— Lorem fistrum se calle ustée ese hombree ese hombree está
+                    la cosa muy malar. Condemor por la gloria de mi madre benemeritaar a
+                    peich. Papaar papaar pecador amatomaa no puedor.
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
@@ -145,10 +145,11 @@ const Testimonial = ({
                     height={64}
                   />
                   <p className="text-sm mb-0">
-                    — Ese pedazo de de la pradera llevame al sircoo hasta luego Lucas
-                    tiene musho peligro mamaar qué dise usteer apetecan. Amatomaa a
-                    gramenawer ese que llega tiene musho peligro ahorarr qué dise usteer
-                    te va a hasé pupitaa caballo blanco caballo negroorl pecador amatomaa.
+                    I am still waiting for the texts to be passed on to me, they will
+                    really speak well of me soon... To Be Continued... While Chiquito
+                    ipsum... — Ese pedazo de de la pradera llevame al sircoo hasta luego
+                    Lucas tiene musho peligro mamaar qué dise usteer apetecan. Amatomaa a
+                    gramenawer ese que llega tiene musho peligro ahorarr qué dise usteer.
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
