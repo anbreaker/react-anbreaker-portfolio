@@ -151,11 +151,27 @@ const Testimonial = ({
                   </a>
 
                   <p className="text-sm mb-0">
-                    I am still waiting for the texts to be passed on to me, they will
-                    really speak well of me soon... To Be Continued... While Chiquito
-                    ipsum... — Ese pedazo de de la pradera llevame al sircoo hasta luego
-                    Lucas tiene musho peligro mamaar qué dise usteer apetecan. Amatomaa a
-                    gramenawer ese que llega tiene musho peligro ahorarr qué dise usteer.
+                    Javier is a great example for the word "overcoming". He is reinventing
+                    himself and investing his time on his passion: web and new
+                    technologies.
+                  </p>
+                  <br />
+                  <p className="text-sm mb-0">
+                    I can say that he is a quick-learner and hard-worker. Always willing
+                    to learn and try new things without any fear. An eager beaver, no
+                    doubts.
+                  </p>
+                  <br />
+                  <p className="text-sm mb-0">
+                    It was my pleasure to collaborate with him to create the Alexa skill:
+                    freeCodeCamp radio. If you need a person with focus on the detail and
+                    really passionate,
+                    <b>
+                      &nbsp; Javier is your guy &nbsp;
+                      <span role="img" aria-labelledby="Winking Face with Tongue">
+                        💪
+                      </span>
+                    </b>
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
