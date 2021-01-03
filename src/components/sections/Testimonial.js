@@ -119,7 +119,7 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
-                    Javier Guerrero Ramírez - Software Engineer Lead on Capgemini
+                    Javier Guerrero Ramírez - Software Engineer Lead working at Capgemini
                   </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
@@ -137,13 +137,19 @@ const Testimonial = ({
             <div className="tiles-item reveal-from-left" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
-                  <Image
-                    className="testimonial-face"
-                    src={require('./../../assets/images/github.png')}
-                    alt="author phrase"
-                    width={64}
-                    height={64}
-                  />
+                  <a
+                    href="https://twitter.com/kinisoftware"
+                    target="_blank"
+                    rel="noreferrer noopener">
+                    <Image
+                      className="testimonial-face"
+                      src={require('./../../assets/images/kini.jpg')}
+                      alt="author phrase"
+                      width={64}
+                      height={64}
+                    />
+                  </a>
+
                   <p className="text-sm mb-0">
                     I am still waiting for the texts to be passed on to me, they will
                     really speak well of me soon... To Be Continued... While Chiquito
@@ -153,10 +159,13 @@ const Testimonial = ({
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Chiquito</span>
+                  <span className="testimonial-item-name text-color-high">
+                    Joaquín Engelmo Moriche - Expert Developer working at Telefonica,
+                    Alexa Champion.
+                  </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="https://www.linkedin.com/in/kinisoftware/">Linkedin</a>
                   </span>
                 </div>
               </div>
