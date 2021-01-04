@@ -68,12 +68,23 @@ const Testimonial = ({
                     />
                   </a>
                   <p className="text-sm mb-0">
-                    I am still waiting for the texts to be passed on to me, they will
-                    really speak well of me soon... To Be Continued... While Chiquito
-                    ipsum... XD — Bienvenido al Chiquito Ipsum, el generador de texto de
-                    relleno para tus diseños de antes de los dolores de pensar. "Fistrum"
-                    para que te salga ese pedaso de texto Chiquito en estado puro. Jarl!!
+                    I have been working several years with Javier both in university and
+                    in side-projects.
                   </p>
+                  <br />
+                  <p className="text-sm mb-0">
+                    He's a humble and strong learner and hard worker.
+                  </p>
+                  <br />
+                  <p className="text-sm mb-0">
+                    I haven't had the pleasure to work with him in a company yet but as
+                    soon as I have the opportunity, I'll hire him. &nbsp;
+                    <span role="img" aria-labelledby="Winking Face with Tongue">
+                      🚀
+                    </span>
+                  </p>
+                  <br />
+                  <p className="text-sm mb-0">So be fast if you want to be first! </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
