@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import {SectionSplitProps} from '../../utils/SectionProps';
+import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 
@@ -67,20 +67,33 @@ const FeaturesSplit = ({
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Deploy on AWS
                 </div>
-                <h3 className="mt-0 mb-12">Data-driven insights</h3>
+
+                <a
+                  href="https://www.egestion.xyz/"
+                  target="_blank"
+                  rel="noreferrer noopener">
+                  <h3 className="mt-0 mb-12">www.egestion.xyz</h3>
+                </a>
                 <p className="m-0">
-                  Nodejs and Mongodb Complete application (Login, Registration,CRUD, ES6+,
-                  and more)
+                  Nodejs, Express, React Redux, Firebase, AWS, Cloudinary, Mongodb... This
+                  is a great and Complete application (Login, Registration,CRUD, ES6+, and
+                  more)
                 </p>
                 <br />
                 <p className="m-0">
-                  This is a basic App to manage simple Notes on the web using Javascript
-                  Technologies like Nodejs, Mongodb, and so on.
+                  All the information about the project can be found on
+                  <a
+                    href="https://github.com/anbreaker/react-proyecto-mu"
+                    target="_blank"
+                    rel="noreferrer noopener">
+                    <b> github </b>
+                  </a>
+                  or from the youtube presentation, where you can also find all the links.
                 </p>
                 <br />
                 <p className="m-0">
-                  Create, read, update, and delete Notes Allows a user to do log in and
-                  save his personal notes.
+                  This has been the group work (together with two colleagues) of the
+                  keepcoding.io Full Stack Web Developer bootcamp.
                 </p>
               </div>
               <div
@@ -89,12 +102,25 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-web-01.png')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396}
-                />
+                <div
+                  className="vide hero-figure reveal-from-bottom illustration-element-01"
+                  data-reveal-value="20px"
+                  data-reveal-delay="800"
+                  style={{
+                    position: 'relative',
+                    paddingBottom: '56.25%' /* 16:9 */,
+                    paddingTop: 25,
+                    height: 0,
+                  }}>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/NNaEmqyjiJE"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
               </div>
             </div>
 

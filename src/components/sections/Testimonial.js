@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import {SectionTilesProps} from '../../utils/SectionProps';
+import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 
@@ -113,7 +113,7 @@ const Testimonial = ({
                     rel="noreferrer noopener">
                     <Image
                       className="testimonial-face"
-                      src={require('./../../assets/images/javier.jpeg')}
+                      src={require('./../../assets/images/javier.jpg')}
                       alt="author phrase"
                       width={64}
                       height={64}

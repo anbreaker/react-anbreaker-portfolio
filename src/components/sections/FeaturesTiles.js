@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import {SectionTilesProps} from '../../utils/SectionProps';
+import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 
@@ -98,17 +98,17 @@ const FeaturesTiles = ({
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <a
-                      href="https://github.com/anbreaker/theQuestGamePyGame"
+                      href="https://www.egestion.xyz/"
                       target="_blank"
                       rel="noreferrer noopener">
                       <Image
-                        src={require('./../../assets/images/Orion_missile.svg')}
-                        alt="Features tile icon 02"
+                        src={require('./../../assets/images/Orion_web.svg')}
+                        alt="Features tile icon 03"
                         width={64}
                         height={64}
                       />
@@ -116,13 +116,16 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">The Quest Game PyGame</h4>
+                  <h4 className="mt-0 mb-8">egestion</h4>
                   <p className="m-0 text-sm">
-                    Final project, bootcamp{' '}
-                    <a href="https://keepcoding.io/">
-                      <strong>Keepcoding</strong>
+                    It is a quota control system for NGOs, meeting the needs of
+                    accounting, traceability and easy management.
+                    <a
+                      href="https://www.youtube.com/watch?v=NNaEmqyjiJE&t=2s"
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      <b>(Final Bootcamp team work, Full Stack Web Developer)</b>
                     </a>
-                    , learn how to program from 0. Code on Python 3.8.
                   </p>
                 </div>
               </div>
@@ -190,17 +193,17 @@ const FeaturesTiles = ({
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <a
-                      href="https://github.com/anbreaker/webNodejsMongodb"
+                      href="https://github.com/anbreaker/theQuestGamePyGame"
                       target="_blank"
                       rel="noreferrer noopener">
                       <Image
-                        src={require('./../../assets/images/Orion_web.svg')}
-                        alt="Features tile icon 03"
+                        src={require('./../../assets/images/Orion_missile.svg')}
+                        alt="Features tile icon 02"
                         width={64}
                         height={64}
                       />
@@ -208,10 +211,13 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Nodejs y Mongodb</h4>
+                  <h4 className="mt-0 mb-8">The Quest Game PyGame</h4>
                   <p className="m-0 text-sm">
-                    NodeJs and MongoDB CRUD Complete APP FullStack whitout frameworks JS,
-                    but use Bootstrap4. <b>(Login, Register,CRUD, ES6+, and more)</b>
+                    Final project, bootcamp{' '}
+                    <a href="https://keepcoding.io/">
+                      <strong>Keepcoding</strong>
+                    </a>
+                    , learn how to program from 0. Code on Python 3.8.
                   </p>
                 </div>
               </div>
