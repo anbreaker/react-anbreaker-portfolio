@@ -121,7 +121,7 @@ const FeaturesTiles = ({
                     It is a quota control system for NGOs, meeting the needs of
                     accounting, traceability and easy management.
                     <a
-                      href="https://www.youtube.com/watch?v=NNaEmqyjiJE&t=2s"
+                      href="https://www.youtube.com/watch?v=NNaEmqyjiJE&t"
                       target="_blank"
                       rel="noreferrer noopener">
                       <b>(Final Bootcamp team work, Full Stack Web Developer)</b>
