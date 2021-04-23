@@ -41,9 +41,9 @@ const Testimonial = ({
   const tilesClasses = classNames('tiles-wrap', pushLeft && 'push-left');
 
   const sectionHeader = {
-    title: 'Friends testimonials ❤️',
+    title: 'Friend testimonials ❤️',
     paragraph:
-      'I could talk about me, describe my little OCD of trying to reach the pixel perfect, that I like pair programming (teamwork is essential). Some friends have wanted to help me talk about myself. Thanks!',
+      'I could talk about me, describe my little OCD of trying to reach the perfect pixel, that I like pair programming (teamwork is essential). Some friends have wanted to help me talk about myself. Thanks!',
   };
 
   return (

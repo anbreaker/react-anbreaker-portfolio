@@ -217,7 +217,7 @@ const FeaturesTiles = ({
                     <a href="https://keepcoding.io/">
                       <strong>Keepcoding</strong>
                     </a>
-                    , learn how to program from 0. Code on Python 3.8.
+                    , learn how to program from scratch. Code on Python 3.8.
                   </p>
                 </div>
               </div>
@@ -243,8 +243,8 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">CRUD Js & Mongo</h4>
                   <p className="m-0 text-sm">
-                    A littel exercise for work and learn, CRUD Complete APP FullStack
-                    whitout frameworks JS, but use Bootstrap4.
+                    A little exercise for work and learn, CRUD Complete APP Full Stack
+                    without frameworks JS, but I use Bootstrap4.
                   </p>
                 </div>
               </div>

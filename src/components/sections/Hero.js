@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import {SectionProps} from '../../utils/SectionProps';
+import { SectionProps } from '../../utils/SectionProps';
 
 const propTypes = {
   ...SectionProps.types,
@@ -46,8 +46,8 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                A industrial mechanic convinced that the web was his fate. I'm learning to
-                create web experiences and programing in Javascript or Python.
+                An industrial mechanic convinced that the web was his fate. I'm learning
+                to create web experiences and programming in Javascript or Python.
               </p>
             </div>
           </div>

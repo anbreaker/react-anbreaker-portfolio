@@ -146,8 +146,9 @@ const FeaturesSplit = ({
                 <p className="m-0">
                   Develop the API that will run on the server of an article sales service.
                 </p>
+                <br />
                 <p className="m-0">
-                  If you know Spanish you can watch the video explaining how the practice
+                  If you know Spanish, you can watch the video explaining how the practice
                   works and if not... you can always activate the subtitles, Thanks
                   Youtube!{' '}
                   <span role="img" aria-labelledby="Winking Face with Tongue">

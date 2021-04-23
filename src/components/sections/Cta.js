@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import {SectionProps} from '../../utils/SectionProps';
+import { SectionProps } from '../../utils/SectionProps';
 // import Input from '../elements/Input';
 // import Button from '../elements/Button';
 
@@ -48,7 +48,7 @@ const Cta = ({
         <div className={innerClasses}>
           <div className="cta-slogan">
             <h3 className="m-0">
-              I invite you to know me through Twitter, Github or see my career on
+              I invite you to meet me through Twitter, Github or see my profile on
               Linkedin.
             </h3>
           </div>
