@@ -48,8 +48,7 @@ const Cta = ({
         <div className={innerClasses}>
           <div className="cta-slogan">
             <h3 className="m-0">
-              I invite you to meet me through Twitter, Github or see my profile on
-              Linkedin.
+              Follow me on Twitter, Github and check out my profile on linkedIn.
             </h3>
           </div>
           <div className="cta-action">

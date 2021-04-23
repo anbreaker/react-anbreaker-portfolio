@@ -43,7 +43,7 @@ const Testimonial = ({
   const sectionHeader = {
     title: 'Friend testimonials ❤️',
     paragraph:
-      'I could talk about me, describe my little OCD of trying to reach the perfect pixel, that I like pair programming (teamwork is essential). Some friends have wanted to help me talk about myself. Thanks!',
+      'I could talk about me, describe my little OCD of trying to reach the perfect pixel, that I like pair programming (teamwork is essential). Some friends of mine have decided to help me talk about myself. Thanks!',
   };
 
   return (
