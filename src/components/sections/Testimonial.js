@@ -147,7 +147,12 @@ const Testimonial = ({
                   <p>
                     He has been teaching me “programming” very patiently, introducing me
                     to the Open-source world that was completely unfamiliar for me. I
-                    really appreciate his willingness and his listening capacity. 👩‍💻
+                    really appreciate his willingness and his listening capacity.
+                    <span
+                      role="img"
+                      aria-labelledby="A woman behind a computer screen, working in the field of technology.">
+                      👩‍💻
+                    </span>
                   </p>
                   <p>
                     He is passionate about his work, enjoying sharing his knowledge about
