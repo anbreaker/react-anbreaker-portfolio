@@ -69,10 +69,10 @@ const FeaturesSplit = ({
                 </div>
 
                 <a
-                  href="https://www.egestion.xyz/"
+                  href="https://www.youtube.com/watch?v=lME14OAJxVQ"
                   target="_blank"
                   rel="noreferrer noopener">
-                  <h3 className="mt-0 mb-12">www.egestion.xyz</h3>
+                  <h3 className="mt-0 mb-12">Video Concept egestion </h3>
                 </a>
                 <p className="m-0">
                   Nodejs, Express, React Redux, Firebase, AWS, Cloudinary, Mongodb... This
