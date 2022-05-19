@@ -46,9 +46,9 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                I'm currently working at ViewNext as a FullStack Web Developer, for IBM
-                and Navantia (HTML, CSS and JavaScript / TypeScript are my worlds. I love
-                it, but I don't recommend it XD)
+                I'm currently working at ViewNext as a <b>FullStack Web Developer</b>, for
+                <b> IBM</b> and <b>Navantia</b> (HTML, CSS and JavaScript / TypeScript are
+                my worlds. I love it, but I don't recommend it XD)
               </p>
             </div>
           </div>
