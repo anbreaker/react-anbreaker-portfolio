@@ -42,12 +42,13 @@ const Hero = ({
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
               Hi there, I'm
-              <span className="text-color-primary"> anbreaker</span>
+              <span className="text-color-primary"> Francisco Javier</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                An industrial mechanic convinced that the web was his fate. I'm learning
-                to create web experiences and programming in Javascript or Python.
+                I'm currently working at ViewNext as a FullStack Web Developer, for IBM
+                and Navantia (HTML, CSS and JavaScript / TypeScript are my worlds. I love
+                it, but I don't recommend it XD)
               </p>
             </div>
           </div>
@@ -61,7 +62,8 @@ const Hero = ({
               paddingBottom: '56.25%' /* 16:9 */,
               paddingTop: 25,
               height: 0,
-            }}>
+            }}
+          >
             <iframe
               title="unique"
               style={{
