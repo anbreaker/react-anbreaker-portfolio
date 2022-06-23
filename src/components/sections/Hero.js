@@ -47,8 +47,32 @@ const Hero = ({
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 I'm currently working at ViewNext as a <b>FullStack Web Developer</b>, for
-                <b> IBM</b> and <b>Navantia</b> (HTML, CSS and JavaScript / TypeScript are
-                my worlds. I love it, but I don't recommend it XD)
+                <b>
+                  <a
+                    href="https://www.ibm.com/es-es"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    &nbsp;<b>IBM</b>&nbsp;
+                  </a>
+                </b>
+                and{' '}
+                <b>
+                  <a
+                    href="https://www.amb.cat/en/home"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    &nbsp;<b>AMB</b>&nbsp;
+                  </a>
+                  (Área Metropolitana de Barcelona).
+                </b>
+                <span style={{ display: 'inline-block' }}>
+                  HTML, CSS and JavaScript / TypeScript are my worlds.
+                </span>
+                <span style={{ display: 'inline-block' }}>
+                  I love it, but I don't recommend it XD
+                </span>
               </p>
             </div>
           </div>
