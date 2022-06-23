@@ -56,7 +56,7 @@ const Hero = ({
                     &nbsp;<b>IBM</b>&nbsp;
                   </a>
                 </b>
-                and{' '}
+                and
                 <b>
                   <a
                     href="https://www.amb.cat/en/home"
