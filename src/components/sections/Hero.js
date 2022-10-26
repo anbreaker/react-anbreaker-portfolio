@@ -48,24 +48,15 @@ const Hero = ({
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 I'm currently working at ViewNext as a <b>FullStack Web Developer</b>, for
                 <b>
-                  <a
-                    href="https://www.ibm.com/es-es"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
+                  <a href="https://www.ibm.com/es-es" target="_blank" rel="noreferrer noopener">
                     &nbsp;<b>IBM</b>&nbsp;
                   </a>
                 </b>
                 and
                 <b>
-                  <a
-                    href="https://www.amb.cat/en/home"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    &nbsp;<b>AMB</b>&nbsp;
+                  <a href="https://www.navantia.es/es/" target="_blank" rel="noreferrer noopener">
+                    &nbsp;<b>Navantia</b>&nbsp;
                   </a>
-                  (Área Metropolitana de Barcelona).
                 </b>
                 <span style={{ display: 'inline-block' }}>
                   HTML, CSS and JavaScript / TypeScript are my worlds.
