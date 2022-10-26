@@ -41,8 +41,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'My Best Featured Projects ',
-    paragraph:
-      'A small sample of my skills and projects created for my own formation and growth.',
+    paragraph: 'A small sample of my skills and projects created for my own formation and growth.',
   };
 
   return (
@@ -58,7 +57,8 @@ const FeaturesTiles = ({
                     <a
                       href="https://github.com/anbreaker/theQuestGamePyGame"
                       target="_blank"
-                      rel="noreferrer noopener">
+                      rel="noreferrer noopener"
+                    >
                       <Image
                         src={require('./../../assets/images/free-code-camp-logo.svg')}
                         alt="Features tile icon 02"
@@ -75,21 +75,20 @@ const FeaturesTiles = ({
                     <a
                       href="https://twitter.com/kinisoftware"
                       target="_blank"
-                      rel="noreferrer noopener">
+                      rel="noreferrer noopener"
+                    >
                       &nbsp;<b>Joaquin Engelmo</b>&nbsp;
                     </a>
                     for &nbsp;
                     <a
                       href="https://www.freecodecamp.org/"
                       target="_blank"
-                      rel="noreferrer noopener">
+                      rel="noreferrer noopener"
+                    >
                       <b>Freecodecamp</b>.
                     </a>
                     &nbsp;Thanks &nbsp;
-                    <a
-                      href="https://twitter.com/ossia"
-                      target="_blank"
-                      rel="noreferrer noopener">
+                    <a href="https://twitter.com/ossia" target="_blank" rel="noreferrer noopener">
                       <b>Quincy</b>
                     </a>
                     &nbsp; (Platform CEO) for the support.
@@ -97,15 +96,11 @@ const FeaturesTiles = ({
                 </div>
               </div>
             </div>
-
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <a
-                      href="https://www.egestion.xyz/"
-                      target="_blank"
-                      rel="noreferrer noopener">
+                    <a href="https://www.egestion.xyz/" target="_blank" rel="noreferrer noopener">
                       <Image
                         src={require('./../../assets/images/Orion_web.svg')}
                         alt="Features tile icon 03"
@@ -118,19 +113,19 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">egestion</h4>
                   <p className="m-0 text-sm">
-                    It is a quota control system for NGOs, meeting the needs of
-                    accounting, traceability and easy management.
+                    It is a quota control system for NGOs, meeting the needs of accounting,
+                    traceability and easy management.
                     <a
                       href="https://www.youtube.com/watch?v=NNaEmqyjiJE&t"
                       target="_blank"
-                      rel="noreferrer noopener">
+                      rel="noreferrer noopener"
+                    >
                       <b>(Final Bootcamp team work, Full Stack Web Developer)</b>
                     </a>
                   </p>
                 </div>
               </div>
             </div>
-
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
@@ -138,7 +133,8 @@ const FeaturesTiles = ({
                     <a
                       href="https://raquelantunez.herokuapp.com/"
                       target="_blank"
-                      rel="noreferrer noopener">
+                      rel="noreferrer noopener"
+                    >
                       <Image
                         src={require('./../../assets/images/Orion_camera.svg')}
                         alt="Features tile icon 03"
@@ -155,26 +151,27 @@ const FeaturesTiles = ({
                     <a
                       href="https://raquelantunez.herokuapp.com/"
                       target="_blank"
-                      rel="noreferrer noopener">
+                      rel="noreferrer noopener"
+                    >
                       <b>Raquel Antúnez</b>
                     </a>
-                    , photographer, communicator. If you need to immortalize a great
-                    moment, visit the website and contact her.
+                    , photographer, communicator. If you need to immortalize a great moment, visit
+                    the website and contact her.
                   </p>
                 </div>
               </div>
             </div>
-
-            <div className="tiles-item reveal-from-bottom">
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <a
-                      href="https://random-keepcoding-quote.herokuapp.com/"
+                      href="https://vite-pinia-firebase-app.web.app/"
                       target="_blank"
-                      rel="noreferrer noopener">
+                      rel="noreferrer noopener"
+                    >
                       <Image
-                        src={require('./../../assets/images/Orion_chat.svg')}
+                        src={require('./../../assets/images/Orion_data.svg')}
                         alt="Features tile icon 03"
                         width={64}
                         height={64}
@@ -183,16 +180,15 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Random Quote React</h4>
+                  <h4 className="mt-0 mb-8">CRUD Firebase and FireStore</h4>
                   <p className="m-0 text-sm">
-                    This is a simple <b>Random Quote Machine</b>, created with React and
-                    Materialize. It represents the phrases that Keepcoders take to the
-                    laboratory of the GIT presentation module in all training camps.
+                    A small exercise to work and learn, CRUD Complete APP Full Stack with Vue3,
+                    Vite, Pinia and Firebase 9 and Antdv to use in UI. Enter and register your Url
+                    with the Url shortening tool.
                   </p>
                 </div>
               </div>
             </div>
-
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
@@ -200,7 +196,8 @@ const FeaturesTiles = ({
                     <a
                       href="https://github.com/anbreaker/theQuestGamePyGame"
                       target="_blank"
-                      rel="noreferrer noopener">
+                      rel="noreferrer noopener"
+                    >
                       <Image
                         src={require('./../../assets/images/Orion_missile.svg')}
                         alt="Features tile icon 02"
@@ -217,22 +214,26 @@ const FeaturesTiles = ({
                     <a href="https://keepcoding.io/">
                       <strong>Keepcoding</strong>
                     </a>
-                    , learn how to program from scratch. Code on Python 3.8.
+                    , learn how to program from scratch. Code on Python.
+                  </p>
+                  <p>
+                    It is a simple game with OOP, Are you able to land the rocket and save the
+                    world? Install and enjoy :P
                   </p>
                 </div>
               </div>
             </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+            <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <a
-                      href="https://jsfullstack-books.herokuapp.com/"
+                      href="https://random-keepcoding-quote.herokuapp.com/"
                       target="_blank"
-                      rel="noreferrer noopener">
+                      rel="noreferrer noopener"
+                    >
                       <Image
-                        src={require('./../../assets/images/Orion_data.svg')}
+                        src={require('./../../assets/images/Orion_chat.svg')}
                         alt="Features tile icon 03"
                         width={64}
                         height={64}
@@ -241,10 +242,11 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">CRUD Js & Mongo</h4>
+                  <h4 className="mt-0 mb-8">Random Quote React</h4>
                   <p className="m-0 text-sm">
-                    A little exercise for work and learn, CRUD Complete APP Full Stack
-                    without frameworks JS, but I use Bootstrap4.
+                    This is a simple <b>Random Quote Machine</b>, created with React and
+                    Materialize. It represents the phrases that Keepcoders take to the laboratory of
+                    the GIT presentation module in all training camps.
                   </p>
                 </div>
               </div>
