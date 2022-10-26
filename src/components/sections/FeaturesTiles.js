@@ -131,7 +131,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <a
-                      href="https://raquelantunez.herokuapp.com/"
+                      href="https://raquel-web-render.onrender.com/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -245,7 +245,7 @@ const FeaturesTiles = ({
                   </p>
                   <p>
                     It is a simple game with OOP, Are you able to land the rocket and save the
-                    world? Install and enjoy. 😛
+                    world? Install and enjoy. :P
                   </p>
                 </div>
               </div>
@@ -255,7 +255,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <a
-                      href="https://random-keepcoding-quote.herokuapp.com/"
+                      href="https://random-quote-react.onrender.com/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
