@@ -182,9 +182,36 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">CRUD Firebase and FireStore</h4>
                   <p className="m-0 text-sm">
-                    A small exercise to work and learn, CRUD Complete APP Full Stack with Vue3,
-                    Vite, Pinia and Firebase 9 and Antdv to use in UI. Enter and register your Url
-                    with the Url shortening tool.
+                    A small exercise to work and learn, CRUD Complete APP Full Stack with
+                    <a
+                      href="https://vuejs.org/guide/introduction.html"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <strong> Vue3, </strong>
+                    </a>
+                    <a href="https://vitejs.dev/guide/" target="_blank" rel="noreferrer noopener">
+                      <strong>Vite, </strong>
+                    </a>
+                    <a
+                      href="https://pinia.vuejs.org/introduction.html"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <strong>Pinia, </strong>
+                    </a>
+                    <a
+                      href="https://firebase.google.com/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <strong>Firebase 9, </strong>
+                    </a>
+                    and
+                    <a href="https://www.antdv.com/" target="_blank" rel="noreferrer noopener">
+                      <strong> Antdv </strong>
+                    </a>
+                    to use in UI. Enter and register your Url with the Url shortening tool.
                   </p>
                 </div>
               </div>
@@ -211,14 +238,14 @@ const FeaturesTiles = ({
                   <h4 className="mt-0 mb-8">The Quest Game PyGame</h4>
                   <p className="m-0 text-sm">
                     Final project, bootcamp{' '}
-                    <a href="https://keepcoding.io/">
+                    <a href="https://keepcoding.io/" target="_blank" rel="noreferrer noopener">
                       <strong>Keepcoding</strong>
                     </a>
                     , learn how to program from scratch. Code on Python.
                   </p>
                   <p>
                     It is a simple game with OOP, Are you able to land the rocket and save the
-                    world? Install and enjoy :P
+                    world? Install and enjoy. 😛
                   </p>
                 </div>
               </div>
