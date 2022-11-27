@@ -58,7 +58,8 @@ const Testimonial = ({
                   <a
                     href="https://www.linkedin.com/in/fmvilas/"
                     target="_blank"
-                    rel="noreferrer noopener">
+                    rel="noreferrer noopener"
+                  >
                     <Image
                       className="testimonial-face"
                       src={require('./../../assets/images/fran.jpg')}
@@ -68,17 +69,15 @@ const Testimonial = ({
                     />
                   </a>
                   <p className="text-sm mb-0">
-                    I have been working several years with Javier both in university and
-                    in side-projects.
+                    I have been working several years with Javier both in university and in
+                    side-projects.
                   </p>
                   <br />
-                  <p className="text-sm mb-0">
-                    He's a humble and strong learner and hard worker.
-                  </p>
+                  <p className="text-sm mb-0">He's a humble and strong learner and hard worker.</p>
                   <br />
                   <p className="text-sm mb-0">
-                    I haven't had the pleasure to work with him in a company yet but as
-                    soon as I have the opportunity, I'll hire him. &nbsp;
+                    I haven't had the pleasure to work with him in a company yet but as soon as I
+                    have the opportunity, I'll hire him. &nbsp;
                     <span role="img" aria-labelledby="Winking Face with Tongue">
                       🚀
                     </span>
@@ -88,23 +87,16 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
-                    Fran Méndez - Founder at AsyncAPI Initiative | Director Of Engineering
-                    at&nbsp;
+                    Fran Méndez - Founder at AsyncAPI Initiative | Director Of Engineering at&nbsp;
                   </span>
                   <span className="testimonial-item-link">
-                    <a
-                      href="https://www.postman.com/"
-                      target="_blank"
-                      rel="noreferrer noopener">
+                    <a href="https://www.postman.com/" target="_blank" rel="noreferrer noopener">
                       Postman
                     </a>
                   </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a
-                      href="https://asyncapi.io/"
-                      target="_blank"
-                      rel="noreferrer noopener">
+                    <a href="https://asyncapi.io/" target="_blank" rel="noreferrer noopener">
                       AsyncAPI
                     </a>
                   </span>
@@ -113,7 +105,8 @@ const Testimonial = ({
                     <a
                       href="https://www.linkedin.com/in/fmvilas/"
                       target="_blank"
-                      rel="noreferrer noopener">
+                      rel="noreferrer noopener"
+                    >
                       Linkedin
                     </a>
                   </span>
@@ -127,7 +120,8 @@ const Testimonial = ({
                   <a
                     href="https://www.linkedin.com/in/barbano-gonzalez-moreno/"
                     target="_blank"
-                    rel="noreferrer noopener">
+                    rel="noreferrer noopener"
+                  >
                     <Image
                       className="testimonial-face"
                       src={require('./../../assets/images/barbanio.jpeg')}
@@ -138,26 +132,26 @@ const Testimonial = ({
                   </a>
 
                   <p className="text-sm mb-0">
-                    Javier is a positive person who likes challenges and does not give up
-                    easily, he is perseverant. He is very empathetic and openminded, very
-                    important skills that make him such a good colleague in in
-                    multidisciplinary teams and collaborative efforts.
+                    Javier is a positive person who likes challenges and does not give up easily, he
+                    is perseverant. He is very empathetic and openminded, very important skills that
+                    make him such a good colleague in in multidisciplinary teams and collaborative
+                    efforts.
                   </p>
                   <br />
                   <p>
-                    He has been teaching me “programming” very patiently, introducing me
-                    to the Open-source world that was completely unfamiliar for me. I
-                    really appreciate his willingness and his listening capacity.
+                    He has been teaching me “programming” very patiently, introducing me to the
+                    Open-source world that was completely unfamiliar for me. I really appreciate his
+                    willingness and his listening capacity.
                     <span
                       role="img"
-                      aria-labelledby="A woman behind a computer screen, working in the field of technology.">
+                      aria-labelledby="A woman behind a computer screen, working in the field of technology."
+                    >
                       👩‍💻
                     </span>
                   </p>
                   <p>
-                    He is passionate about his work, enjoying sharing his knowledge about
-                    it. If you are looking for a dynamic and trusty colleague, Javier
-                    should be your choice.
+                    He is passionate about his work, enjoying sharing his knowledge about it. If you
+                    are looking for a dynamic and trusty colleague, Javier should be your choice.
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
@@ -165,19 +159,13 @@ const Testimonial = ({
                     Barbaño González Moreno - Education Program Manager at&nbsp;
                   </span>
                   <span className="testimonial-item-link">
-                    <a
-                      href="https://www.postman.com/"
-                      target="_blank"
-                      rel="noreferrer noopener">
+                    <a href="https://www.postman.com/" target="_blank" rel="noreferrer noopener">
                       Postman
                     </a>
                   </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a
-                      href="https://asyncapi.io/"
-                      target="_blank"
-                      rel="noreferrer noopener">
+                    <a href="https://asyncapi.io/" target="_blank" rel="noreferrer noopener">
                       AsyncAPI
                     </a>
                   </span>
@@ -186,7 +174,8 @@ const Testimonial = ({
                     <a
                       href="https://www.linkedin.com/in/barbano-gonzalez-moreno/"
                       target="_blank"
-                      rel="noreferrer noopener">
+                      rel="noreferrer noopener"
+                    >
                       Linkedin
                     </a>
                   </span>
@@ -200,10 +189,11 @@ const Testimonial = ({
                   <a
                     href="https://twitter.com/kinisoftware"
                     target="_blank"
-                    rel="noreferrer noopener">
+                    rel="noreferrer noopener"
+                  >
                     <Image
                       className="testimonial-face"
-                      src={require('./../../assets/images/kini.jpg')}
+                      src={require('./../../assets/images/kini.jpeg')}
                       alt="author phrase"
                       width={64}
                       height={64}
@@ -211,21 +201,19 @@ const Testimonial = ({
                   </a>
 
                   <p className="text-sm mb-0">
-                    Javier is a great example for the word "overcoming". He is reinventing
-                    himself and investing his time on his passion: web and new
-                    technologies.
+                    Javier is a great example for the word "overcoming". He is reinventing himself
+                    and investing his time on his passion: web and new technologies.
                   </p>
                   <br />
                   <p className="text-sm mb-0">
-                    I can say that he is a quick-learner and hard-worker. Always willing
-                    to learn and try new things without any fear. An eager beaver, no
-                    doubts.
+                    I can say that he is a quick-learner and hard-worker. Always willing to learn
+                    and try new things without any fear. An eager beaver, no doubts.
                   </p>
                   <br />
                   <p className="text-sm mb-0">
                     It was my pleasure to collaborate with him to create the Alexa skill:
-                    freeCodeCamp radio. If you need a person with focus on the detail and
-                    really passionate,
+                    freeCodeCamp radio. If you need a person with focus on the detail and really
+                    passionate,
                     <b>
                       &nbsp; Javier is your guy &nbsp;
                       <span role="img" aria-labelledby="Winking Face with Tongue">
@@ -236,15 +224,27 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
-                    Joaquín Engelmo Moriche - Expert Developer working at&nbsp;
+                    Joaquín Engelmo Moriche - DevRel at &nbsp;
                     <span className="testimonial-item-link">
-                      <a href="https://www.telefonica.com/es/home">Telefonica</a>
+                      <a href="https://www.criteo.com/" target="_blank" rel="noreferrer noopener">
+                        Criteo{' '}
+                      </a>
                     </span>
-                    , Alexa Champion.
                   </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="https://www.linkedin.com/in/kinisoftware/">Linkedin</a>
+                    <a
+                      href="https://www.linkedin.com/in/kinisoftware/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      {' '}
+                      Linkedin
+                    </a>
+                  </span>
+                  . Alexa Champion &nbsp;
+                  <span role="img" aria-labelledby="Winking Face with Tongue" alt="">
+                    🏆
                   </span>
                 </div>
               </div>
