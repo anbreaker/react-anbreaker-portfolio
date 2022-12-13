@@ -46,16 +46,20 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                I'm currently working at ViewNext as a <b>FullStack Web Developer</b>, for
+                I'm currently working as <b>FullStack Web Developer</b>, for
                 <b>
-                  <a href="https://www.ibm.com/es-es" target="_blank" rel="noreferrer noopener">
-                    &nbsp;<b>IBM</b>&nbsp;
+                  <a href="https://www.sngular.com/es/" target="_blank" rel="noreferrer noopener">
+                    &nbsp;<b>Sngular</b>&nbsp;
                   </a>
                 </b>
                 and
                 <b>
-                  <a href="https://www.navantia.es/es/" target="_blank" rel="noreferrer noopener">
-                    &nbsp;<b>Navantia</b>&nbsp;
+                  <a
+                    href="https://www.bbva.es/personas.html"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    &nbsp;<b>BBVA</b>.&nbsp;
                   </a>
                 </b>
                 <span style={{ display: 'inline-block' }}>
