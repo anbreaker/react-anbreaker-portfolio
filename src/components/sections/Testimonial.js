@@ -69,15 +69,22 @@ const Testimonial = ({
                     />
                   </a>
                   <p className="text-sm mb-0">
-                    I have been working several years with Javier both in university and in
-                    side-projects.
+                    I have had the pleasure of working with Javier for several years, both in
+                    university and on personal projects. He is a humble, quick learner, and hard
+                    worker.
                   </p>
                   <br />
-                  <p className="text-sm mb-0">He's a humble and strong learner and hard worker.</p>
+                  <p className="text-sm mb-0">
+                    I have seen firsthand his ability to quickly learn new skills and knowledge, and
+                    his commitment to teamwork. He is also always willing to help others and share
+                    his knowledge.
+                  </p>
                   <br />
                   <p className="text-sm mb-0">
-                    I haven't had the pleasure to work with him in a company yet but as soon as I
-                    have the opportunity, I'll hire him. &nbsp;
+                    Although I have not yet had the opportunity to work with him in a company, I am
+                    confident that he would be a valuable asset to any team. Therefore, if you are
+                    looking for someone with these qualities, I highly recommend that you do not
+                    miss the opportunity to hire Javier. Act fast, before someone else does! &nbsp;
                     <span role="img" aria-labelledby="Winking Face with Tongue">
                       🚀
                     </span>
