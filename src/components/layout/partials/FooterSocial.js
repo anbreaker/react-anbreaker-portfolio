@@ -1,42 +1,33 @@
 import React from 'react';
 import classNames from 'classnames';
 import Image from '../../elements/Image';
-// import {Link} from 'react-router-dom';
 
-const FooterSocial = ({className, ...props}) => {
+const FooterSocial = ({ className, ...props }) => {
   const classes = classNames('footer-social', className);
 
   return (
     <div {...props} className={classes}>
       <ul className="list-reset">
         <li>
-          <a
-            href="https://twitter.com/antunez19"
-            target="_blank"
-            rel="noreferrer noopener">
+          <a href="https://twitter.com/antunez19" target="_blank" rel="noreferrer noopener">
             <svg
-              width="36"
-              height="36"
-              viewBox="0 0 64 64"
-              xmlns="http://www.w3.org/2000/svg">
-              <title>Twitter</title>
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="48"
+              height="48"
+              viewBox="0 0 50 50"
+            >
               <path
-                d="M64 13.194a23.1 23.1 0 0 1-7.3 2.1 14.119 14.119 0 0 0 5.5-7.2c-1.9 1.2-6.1 2.9-8.2 2.9a13.782 13.782 0 0 0-9.6-4 13.187 13.187 0 0 0-13.2 13.2 13.576 13.576 0 0 0 .3 2.9c-9.9-.3-21.5-5.2-28-13.7a13.206 13.206 0 0 0 4 17.4c-1.5.2-4.4-.1-5.7-1.4-.1 4.6 2.1 10.7 10.2 12.9-1.6.8-4.3.6-5.5.4.4 3.9 5.9 9 11.8 9-2.1 2.4-9.3 6.9-18.3 5.5a39.825 39.825 0 0 0 20.7 5.8 36.8 36.8 0 0 0 37-38.6v-.5a22.861 22.861 0 0 0 6.3-6.7z"
                 fill="#0077b7"
-              />
+                d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"
+              ></path>
             </svg>
           </a>
         </li>
         <li>
-          <a
-            href="https://github.com/anbreaker"
-            target="_blank"
-            rel="noreferrer noopener">
-            <svg
-              width="36"
-              height="36"
-              viewBox="0 0 64 64"
-              xmlns="http://www.w3.org/2000/svg">
+          <a href="https://github.com/anbreaker" target="_blank" rel="noreferrer noopener">
+            <svg width="36" height="36" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
               <title>Github</title>
               <path
                 fill="#5658DD"
@@ -50,12 +41,9 @@ const FooterSocial = ({className, ...props}) => {
           <a
             href="https://www.linkedin.com/in/francisco-javier-antunez-duran/"
             target="_blank"
-            rel="noreferrer noopener">
-            <svg
-              width="36"
-              height="36"
-              viewBox="0 0 64 64"
-              xmlns="http://www.w3.org/2000/svg">
+            rel="noreferrer noopener"
+          >
+            <svg width="36" height="36" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
               <title>Linkedin</title>
               <g>
                 <circle cx="12.145" cy="3.892" r="1" />
@@ -68,10 +56,7 @@ const FooterSocial = ({className, ...props}) => {
           </a>
         </li>
         <li>
-          <a
-            href="https://anbreaker.netlify.app/"
-            target="_blank"
-            rel="noreferrer noopener">
+          <a href="https://anbreaker.netlify.app/" target="_blank" rel="noreferrer noopener">
             <Image
               src={require('./../../../assets/images/logo-gearbox-purple.png')}
               alt="image link go home"
