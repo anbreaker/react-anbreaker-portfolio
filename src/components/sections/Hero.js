@@ -54,12 +54,8 @@ const Hero = ({
                 </b>
                 and
                 <b>
-                  <a
-                    href="https://www.bbva.es/personas.html"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    &nbsp;<b>BBVA</b>.&nbsp;
+                  <a href="https://vitaly.es/" target="_blank" rel="noreferrer noopener">
+                    &nbsp;<b>Vitaly</b>.&nbsp;
                   </a>
                 </b>
                 <span style={{ display: 'inline-block' }}>
